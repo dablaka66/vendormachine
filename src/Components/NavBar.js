@@ -1,24 +1,41 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 export default function NavBar() {
   return (
     <nav>
         <ul>
             
             <li>
-                <NavLink to="/Dornier" activeClassName="active">Dornier</NavLink>
+                <NavLink to="/Dornier" activeclassname="active">Dornier</NavLink>
             </li>
             <li>
-                <NavLink to="/Mustang" activeClassName="active">Mustang</NavLink>
+                <NavLink to="/Mustang" activeclassname="active">Mustang</NavLink>
             </li>
             <li>
-                <NavLink to='/Baron' activeClassName="active">Baron</NavLink>
+                <NavLink to="/Baron" activeclassname="active">Baron</NavLink>
             </li>
             <li>
-                <NavLink to='/BlackHawk' activeClassName="active">BlackHawk</NavLink>
+                <NavLink to="/Hydroplanes" activeclassname="active">HydroPlanes</NavLink>
             </li>
             <li>
-                <NavLink exact to='/' activeClassName="active">Home</NavLink>
+                <NavLink to="/BlackHawk" activeclassname="active">BlackHawk</NavLink>
+            </li>
+            <li>
+                <NavLink to="/" activeclassname="active">Home</NavLink>
+               
+            </li>
+            <li>
+                <NavLink to="/Login" activeclassname="active">Login</NavLink>
+               
+            </li><li>
+                <NavLink to="/Register" activeclassname="active">Register</NavLink>
+               
+            </li><li>
+                <NavLink to="/Payment" activeclassname="active">Payment</NavLink>
+               
+            </li><li>
+                <NavLink to="/Dash" activeclassname="active">Dash</NavLink>
+               
             </li>
         </ul>
     </nav>
