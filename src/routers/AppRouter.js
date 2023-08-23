@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes, NavLink} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import MustangPage from '../Pages/MustangPage';
 import DornierPage from '../Pages/DornierPage';
@@ -24,7 +24,7 @@ export default function AppRouter() {
           <hr />
             <Routes>
             <Route path="/Profile/:username" element={<ProfilePage />} />
-            <Route path="/Mustang" element={<MustangPage />} />
+            <Route path="/Machine/Mustang" element={<MustangPage />} />
             <Route path="/Dornier" element={<DornierPage />} />
             <Route path="/BlackHawk" element={<BlackHawkPage />} />
             <Route path="/Baron" element={<BaronPage />} />

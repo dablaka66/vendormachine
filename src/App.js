@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
-import AppRouter from './routers/AppRouter';
+import HomePage from './Pages/HomePage';
+//import MainPage from './Pages/MainPage';
+
+/* import AppRouter from './routers/AppRouter';
+import Machine from './Pages/Machine';
+import Dogs from './Pages/Dogs'; */
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Machine</h1>
-      <AppRouter />
+      <HomePage />
     </div>
   );
 }

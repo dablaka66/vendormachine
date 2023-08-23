@@ -6,19 +6,19 @@ export default function NavBar() {
         <ul>
             
             <li>
-                <NavLink to="/Dornier" activeclassname="active">Dornier</NavLink>
+                <NavLink to="/Machine/Dornier" activeclassname="active">Dornier</NavLink>
             </li>
             <li>
-                <NavLink to="/Mustang" activeclassname="active">Mustang</NavLink>
+                <NavLink to="/Machine/Mustang" activeclassname="active">Mustang</NavLink>
             </li>
             <li>
-                <NavLink to="/Baron" activeclassname="active">Baron</NavLink>
+                <NavLink to="/Machine/Baron" activeclassname="active">Baron</NavLink>
             </li>
             <li>
-                <NavLink to="/Hydroplanes" activeclassname="active">HydroPlanes</NavLink>
+                <NavLink to="/Machine/Hydroplanes" activeclassname="active">HydroPlanes</NavLink>
             </li>
             <li>
-                <NavLink to="/BlackHawk" activeclassname="active">BlackHawk</NavLink>
+                <NavLink to="/Machine/BlackHawk" activeclassname="active">BlackHawk</NavLink>
             </li>
             <li>
                 <NavLink to="/" activeclassname="active">Home</NavLink>
